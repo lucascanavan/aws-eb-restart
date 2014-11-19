@@ -1,0 +1,24 @@
+{
+  "name": "aws-eb-restart",
+  "version": "1.0.0",
+  "description": "Restart AWS Elastic Beanstalk",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.0.27",
+    "coffee-script": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucascanavan/aws-eb-restart.git"
+  },
+  "author": "Lucas Canavan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucascanavan/aws-eb-restart/issues"
+  },
+  "homepage": "https://github.com/lucascanavan/aws-eb-restart"
+}
