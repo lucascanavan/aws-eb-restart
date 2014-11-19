@@ -22,4 +22,4 @@ for application in config.applications
                 console.log "About to restart environment #{environment.EnvironmentName}..."
                 elasticbeanstalk.restartAppServer { EnvironmentName: environment.EnvironmentName }, (err, response) =>
                     console.log err, err.stack if err?
-                    console.log data if data?
+                    console.log response if response?
